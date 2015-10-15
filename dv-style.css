@@ -1,0 +1,84 @@
+/* extend grid to have 1/5 columns */
+
+.col-xs-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.col-xs-15 {
+    width: 20%;
+    float: left;
+}
+@media (min-width: 768px) {
+.col-sm-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 992px) {
+    .col-md-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 1200px) {
+    .col-lg-15 {
+        width: 20%;
+        float: left;
+    }
+}
+
+/* default content styling */
+
+.dv-section {
+	overflow: hidden;
+}
+
+.dv-content {
+	position: relative;
+	overflow: hidden;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+.dv-col-centered {
+	margin-left: auto;
+	margin-right: auto;
+	float: none;
+}
+
+
+
+/* background colors (apply anywhere) */
+
+.dv-bg-main {
+	background-color: #ffffff;
+}
+
+.dv-bg-alt {
+	background-color: #f2f2f2;
+}
+
+.dv-bg-alt-2 {
+	background-color: #efefef;
+}
+
+
+/* helper classes */
+
+.dv-text-big {
+	font-size: x-large;
+}
+
+.dv-border-right {
+	border-right: 1px dotted #cfcfcf;
+}
+
+.dv-table-title {
+	border-bottom: 1px solid #cfcfcf;
+}
