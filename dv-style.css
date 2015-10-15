@@ -82,3 +82,17 @@
 .dv-table-title {
 	border-bottom: 1px solid #cfcfcf;
 }
+
+/* content images */
+#dv-section-welcome {
+	min-height:800px;
+	position: relative;
+}
+#dv-section-welcome figure.dv-door-eco {
+  background-image: url(img/bg22.jpg);
+  background-size: 1600px 800px;
+  position: absolute;
+  width: 1600px;
+  height: 800px;
+  top: 0;
+}
